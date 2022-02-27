@@ -37,7 +37,7 @@ namespace TallerPOO
 
             return
                 $"                                     ============"+
-                $"\n\tTOTAL ......................: {$"{ValueToPay():C2}"}";
+                $"\n\tTOTAL:                        {$"{ValueToPay():C2}"}";
         }
 
        
