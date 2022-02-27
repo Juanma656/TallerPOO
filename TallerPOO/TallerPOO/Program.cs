@@ -1,8 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using TallerPOO;
 
-Console.WriteLine("Hello, World!");
-Product product1 = new FixedPriceProduct()
+Console.WriteLine($"PRODUCTS" +
+                $"\n\t-------------------------------------------------"); Product product1 = new FixedPriceProduct()
 {
     Description = "Vino Gato Negro",
     Id = 1010,
@@ -48,7 +48,7 @@ Console.WriteLine(product4);
 Console.WriteLine(product5);
 
 Console.WriteLine($"RECEIPT" +
-                $"-------------------------------------------------");
+                $"\n\t-------------------------------------------------");
 Invoice invoice = new Invoice();
 invoice.AddProduct(product1);
 invoice.AddProduct(product3);
